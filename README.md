@@ -9,7 +9,7 @@ Processor : xc7z020clg484-1 </br>
 Design Tool : Vivado Design Suite HLx Edition 19.1 </br></br>
 
 ## Image filtering
- The digital signal processor has to meet the following requirements. First of all, it has three filtering modes to process an image; edge, sharp, and blur. Image filtering is implemented through 1-D convolution. Each filtering mode has their convolution coefficient as follow.</br></br>
+ The digital signal processor has to meet the following requirements. First of all, it has three filtering modes to process an image; edge, sharp, and blur. Image filtering is implemented through 1-D convolution. Each filtering mode has their convolution coefficient as follow.</br>
 ```
 𝐸𝑑𝑔𝑒 𝐹𝑖𝑙𝑡𝑒𝑟′𝑠 1𝐷 𝑐𝑜𝑒𝑓𝑓𝑖𝑐𝑖𝑒𝑛𝑡 = [ −1, −2, 6, −2, −1]  
 𝑆h𝑎𝑟𝑝 𝐹𝑖𝑙𝑡𝑒𝑟′𝑠 1𝐷 𝑐𝑜𝑒𝑓𝑓𝑖𝑐𝑖𝑒𝑛𝑡 = [−1, −2, 7, −2, −1] 
