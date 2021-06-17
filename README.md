@@ -1,8 +1,5 @@
 
-# Digital Signal Processor: </br> ## three filtering mode
-## three filtering mode
-
----
+# Digital Signal Processor: </br> three filtering mode
 
 ##Image filtering
 
