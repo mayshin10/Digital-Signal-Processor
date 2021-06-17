@@ -27,14 +27,14 @@ Design Tool : Vivado Design Suite HLx Edition 19.1 </br></br>
 
 ## Hardware
 <p align="center">
-<img src = "https://github.com/mayshin10/DSP-FPGA/blob/main/img_src/hardware%20architecture.png" width = "500px" ></br></br>
-Hardware architecture</br>
+<img src = "https://github.com/mayshin10/DSP-FPGA/blob/main/img_src/hardware%20architecture.png" width = "500px" ></br>
+Hardware architecture</br></br>
 <img src = "https://github.com/mayshin10/DSP-FPGA/blob/main/img_src/system%20wrapper.png" width = "800px" ></br>
 System wrapper block diagram</br></br>
 
 </p></br>
 
----
+
 
 ## Firmware
 <p align="center">
@@ -42,7 +42,7 @@ System wrapper block diagram</br></br>
 Firmware control logic</br></br>
 </p></br>
 
----
+
 
 ## Results
 잆럮햕 뮩쨩읉 햕뀪읹먅 얉야뾽 쓔 있꼐 뼍얶햬뜲릾니땨.</br>
