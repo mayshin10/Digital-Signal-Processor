@@ -1,0 +1,43 @@
+{
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 7.0.19  2019-03-26 bk=1.5019 VDI=41 GEI=35 GUI=JA:9.0 non-TLS
+#  -string -flagsOSRD
+preplace port DDR -pg 1 -lvl 4 -x 1390 -y -210 -defaultsOSRD
+preplace port FIXED_IO -pg 1 -lvl 4 -x 1390 -y -160 -defaultsOSRD
+preplace port M_AHB_1 -pg 1 -lvl 4 -x 1390 -y 120 -defaultsOSRD
+preplace port M_AHB_0 -pg 1 -lvl 4 -x 1390 -y -50 -defaultsOSRD
+preplace port Core0_nIRQ -pg 1 -lvl 0 -x 0 -y -130 -defaultsOSRD
+preplace port clk -pg 1 -lvl 4 -x 1390 -y -120 -defaultsOSRD
+preplace portBus resetn -pg 1 -lvl 4 -x 1390 -y 400 -defaultsOSRD
+preplace portBus SEGDATA -pg 1 -lvl 4 -x 1390 -y 260 -defaultsOSRD
+preplace portBus cycle -pg 1 -lvl 0 -x 0 -y 490 -defaultsOSRD
+preplace inst processing_system7_0 -pg 1 -lvl 1 -x 540 -y -140 -defaultsOSRD
+preplace inst proc_sys_reset_0 -pg 1 -lvl 1 -x 540 -y 60 -defaultsOSRD
+preplace inst axi_interconnect_0 -pg 1 -lvl 2 -x 910 -y -20 -defaultsOSRD
+preplace inst axi_ahblite_bridge_0 -pg 1 -lvl 3 -x 1230 -y -50 -defaultsOSRD
+preplace inst axi_ahblite_bridge_1 -pg 1 -lvl 3 -x 1230 -y 120 -defaultsOSRD
+preplace inst sevenseg_0 -pg 1 -lvl 3 -x 1230 -y 260 -defaultsOSRD
+preplace inst cycle_1 -pg 1 -lvl 3 -x 1230 -y 500 -defaultsOSRD
+preplace netloc proc_sys_reset_0_peripheral_aresetn 1 1 3 760J 160 1090J 400 NJ
+preplace netloc sevenseg_0_SEGDATA 1 3 1 N 260
+preplace netloc Core0_nIRQ_0_1 1 0 1 N -130
+preplace netloc processing_system7_0_FCLK_CLK0 1 0 4 20 160 750J 170 1080J 30 1360J
+preplace netloc proc_sys_reset_0_interconnect_aresetn 1 1 1 740 -100n
+preplace netloc processing_system7_0_FCLK_RESET0_N 1 0 2 30 -40 730
+preplace netloc cycle_0_1 1 0 3 NJ 490 NJ 490 NJ
+preplace netloc axi_ahblite_bridge_1_M_AHB 1 3 1 N 120
+preplace netloc processing_system7_0_DDR 1 1 3 730J -210 N -210 N
+preplace netloc processing_system7_0_M_AXI_GP0 1 1 1 N -140
+preplace netloc axi_interconnect_0_M00_AXI 1 2 1 1050 -70n
+preplace netloc axi_ahblite_bridge_0_M_AHB 1 3 1 N -50
+preplace netloc axi_interconnect_0_M02_AXI 1 2 1 1070 -10n
+preplace netloc processing_system7_0_FIXED_IO 1 1 3 760J -200 N -200 1360
+preplace netloc axi_interconnect_0_M01_AXI 1 2 1 1060 -30n
+preplace netloc axi_interconnect_0_M03_AXI 1 2 1 1050 10n
+levelinfo -pg 1 0 540 910 1230 1390
+pagesize -pg 1 -db -bbox -sgen -130 -600 1540 1290
+"
+}
+{
+   "da_ps7_cnt":"1"
+}

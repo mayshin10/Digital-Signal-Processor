@@ -1,0 +1,2 @@
+bufferram.v,verilog,xil_defaultlib,../../../../project_final.srcs/sources_1/ip/bufferram/sim/bufferram.v,
+glbl.v,Verilog,xil_defaultlib,glbl.v

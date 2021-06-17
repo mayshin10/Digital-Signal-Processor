@@ -1,0 +1,150 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Fri Jun 18 04:01:16 2021
+# Process ID: 15204
+# Current directory: E:/vivado_projects/project_final_testbench
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent16644 E:\vivado_projects\project_final_testbench\project_final_testbench.xpr
+# Log file: E:/vivado_projects/project_final_testbench/vivado.log
+# Journal file: E:/vivado_projects/project_final_testbench\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project E:/vivado_projects/project_final_testbench/project_final_testbench.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'E:/Xilinx/Vivado/2019.1/data/ip'.
+open_project: Time (s): cpu = 00:00:35 ; elapsed = 00:00:17 . Memory (MB): peak = 724.375 ; gain = 104.094
+update_compile_order -fileset sources_1
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'E:/vivado_projects/project_final_testbench/project_final_testbench.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb_filter' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'E:/vivado_projects/project_final_testbench/project_final_testbench.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj tb_filter_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/vivado_projects/project_final_testbench/project_final_testbench.srcs/sources_1/new/filter.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module filter
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/vivado_projects/project_final_testbench/project_final_testbench.srcs/sources_1/new/tb_filter.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_filter
+run_program: Time (s): cpu = 00:00:03 ; elapsed = 00:00:08 . Memory (MB): peak = 773.707 ; gain = 12.914
+INFO: [USF-XSim-69] 'compile' step finished in '7' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'E:/vivado_projects/project_final_testbench/project_final_testbench.sim/sim_1/behav/xsim'
+"xelab -wto 962c4b9b95db415b85723eaed10e4f36 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_filter_behav xil_defaultlib.tb_filter xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator 2019.1
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: E:/Xilinx/Vivado/2019.1/bin/unwrapped/win64.o/xelab.exe -wto 962c4b9b95db415b85723eaed10e4f36 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_filter_behav xil_defaultlib.tb_filter xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.filter
+Compiling module xil_defaultlib.tb_filter
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot tb_filter_behav
+
+****** Webtalk v2019.1 (64-bit)
+  **** SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+  **** IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+    ** Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+
+source E:/vivado_projects/project_final_testbench/project_final_testbench.sim/sim_1/behav/xsim/xsim.dir/tb_filter_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-186] 'E:/vivado_projects/project_final_testbench/project_final_testbench.sim/sim_1/behav/xsim/xsim.dir/tb_filter_behav/webtalk/usage_statistics_ext_xsim.xml' has been successfully sent to Xilinx on Fri Jun 18 04:04:14 2021. For additional details about this file, please refer to the WebTalk help file at E:/Xilinx/Vivado/2019.1/doc/webtalk_introduction.html.
+webtalk_transmit: Time (s): cpu = 00:00:00 ; elapsed = 00:00:05 . Memory (MB): peak = 91.625 ; gain = 0.000
+INFO: [Common 17-206] Exiting Webtalk at Fri Jun 18 04:04:14 2021...
+run_program: Time (s): cpu = 00:00:04 ; elapsed = 00:00:22 . Memory (MB): peak = 773.707 ; gain = 0.000
+INFO: [USF-XSim-69] 'elaborate' step finished in '22' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'E:/vivado_projects/project_final_testbench/project_final_testbench.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "tb_filter_behav -key {Behavioral:sim_1:Functional:tb_filter} -tclbatch {tb_filter.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2019.1
+Time resolution is 1 ps
+source tb_filter.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+xsim: Time (s): cpu = 00:00:20 ; elapsed = 00:00:09 . Memory (MB): peak = 821.148 ; gain = 47.441
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'tb_filter_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:31 ; elapsed = 00:00:41 . Memory (MB): peak = 821.148 ; gain = 60.355
+run all
+run: Time (s): cpu = 00:05:35 ; elapsed = 00:05:52 . Memory (MB): peak = 821.148 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+close_sim: Time (s): cpu = 00:00:03 ; elapsed = 00:00:11 . Memory (MB): peak = 846.105 ; gain = 12.895
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'E:/vivado_projects/project_final_testbench/project_final_testbench.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb_filter' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'E:/vivado_projects/project_final_testbench/project_final_testbench.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj tb_filter_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/vivado_projects/project_final_testbench/project_final_testbench.srcs/sources_1/new/filter.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module filter
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/vivado_projects/project_final_testbench/project_final_testbench.srcs/sources_1/new/tb_filter.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_filter
+INFO: [USF-XSim-69] 'compile' step finished in '4' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'E:/vivado_projects/project_final_testbench/project_final_testbench.sim/sim_1/behav/xsim'
+"xelab -wto 962c4b9b95db415b85723eaed10e4f36 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_filter_behav xil_defaultlib.tb_filter xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator 2019.1
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: E:/Xilinx/Vivado/2019.1/bin/unwrapped/win64.o/xelab.exe -wto 962c4b9b95db415b85723eaed10e4f36 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_filter_behav xil_defaultlib.tb_filter xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.filter
+Compiling module xil_defaultlib.tb_filter
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot tb_filter_behav
+run_program: Time (s): cpu = 00:00:01 ; elapsed = 00:00:05 . Memory (MB): peak = 846.105 ; gain = 0.000
+INFO: [USF-XSim-69] 'elaborate' step finished in '5' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'E:/vivado_projects/project_final_testbench/project_final_testbench.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "tb_filter_behav -key {Behavioral:sim_1:Functional:tb_filter} -tclbatch {tb_filter.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2019.1
+Time resolution is 1 ps
+source tb_filter.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+xsim: Time (s): cpu = 00:00:07 ; elapsed = 00:00:05 . Memory (MB): peak = 846.105 ; gain = 0.000
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'tb_filter_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:09 ; elapsed = 00:00:15 . Memory (MB): peak = 846.105 ; gain = 0.000
+run all
+run: Time (s): cpu = 00:00:35 ; elapsed = 00:00:32 . Memory (MB): peak = 846.105 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+exit
+INFO: [Common 17-206] Exiting Vivado at Fri Jun 18 05:37:27 2021...

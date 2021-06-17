@@ -1,0 +1,18 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Fri Jun 11 00:04:38 2021
+# Process ID: 5288
+# Current directory: E:/vivado_projects/project_final/project_final.runs/system_axi_ahblite_bridge_1_0_synth_1
+# Command line: vivado.exe -log system_axi_ahblite_bridge_1_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source system_axi_ahblite_bridge_1_0.tcl
+# Log file: E:/vivado_projects/project_final/project_final.runs/system_axi_ahblite_bridge_1_0_synth_1/system_axi_ahblite_bridge_1_0.vds
+# Journal file: E:/vivado_projects/project_final/project_final.runs/system_axi_ahblite_bridge_1_0_synth_1\vivado.jou
+#-----------------------------------------------------------
+source system_axi_ahblite_bridge_1_0.tcl -notrace
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'e:/vivado_projects/ip_repo/cycle_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'e:/vivado_projects/ip_repo/sevenseg_1.0'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'E:/Xilinx/Vivado/2019.1/data/ip'.
+INFO: [IP_Flow 19-4838] Using cached IP synthesis design for IP system_axi_ahblite_bridge_1_0, cache-ID = 14787bd5b0c21694.
+INFO: [Common 17-206] Exiting Vivado at Fri Jun 11 00:04:49 2021...
