@@ -1,7 +1,7 @@
 
 # Digital Signal Processor: </br> three filtering modes
 
-This project is to design a digital signal processor with three filtering modes using FPGA. The FPGA consists of Processing System(PS) and Programmable Logic(PL). Thus, it needs to design hardware and firmware that process images. </br></br>
+     This project is to design a digital signal processor with three filtering modes using FPGA. The FPGA consists of Processing System(PS) and Programmable Logic(PL). Thus, it needs to design hardware and firmware that process images. </br></br>
 
 ## Environment
 Platform : RPS-z7020-TK </br>
