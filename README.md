@@ -46,7 +46,7 @@ Firmware control logic</br></br>
 
 ## Results
 <p align="center">
-<img src = "hhttps://github.com/mayshin10/DSP-FPGA/blob/main/img_src/Filtered%20Images.png" width = "600px" ></br>
+<img src = "https://github.com/mayshin10/DSP-FPGA/blob/main/img_src/Filtered%20Images.png" width = "600px" ></br>
 Filtered Images</br></br>
 <img src = "https://github.com/mayshin10/DSP-FPGA/blob/main/img_src/Zynq%20Board%20Results.png" width = "600px" ></br>
 Zynq Board results</br></br>
