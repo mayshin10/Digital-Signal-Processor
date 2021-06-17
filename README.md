@@ -5,7 +5,7 @@
 
 ## Hardware
 <p align="center">
-<img src = "https://github.com/mayshin10/DSP-FPGA/blob/main/img_src/hardware%20architecture.png" width = "700px" ></br>
+<img src = "https://github.com/mayshin10/DSP-FPGA/blob/main/img_src/hardware%20architecture.png" width = "500px" ></br></br>
 Hardware architecture</br>
 <img src = "https://github.com/mayshin10/DSP-FPGA/blob/main/img_src/system%20wrapper.png"></br>
 System wrapper block diagram</br></br>
