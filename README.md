@@ -1,4 +1,4 @@
-![땅파고 로고](https://user-images.githubusercontent.com/45932570/116440248-3f3fd300-a88b-11eb-8d42-19f3ba28ae85.png)
+#Digital Signal Processor: three filtering mode
 
 ### 땅파고 기능
 
