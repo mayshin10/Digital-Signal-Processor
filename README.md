@@ -1,5 +1,5 @@
 
-# Digital Signal Processor: </br> three filtering mode
+# Digital Signal Processor: </br> three filtering modes
 
 This project is to design a digital signal processor with three filtering modes; edge, sharp and blur.
 
