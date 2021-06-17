@@ -45,9 +45,10 @@ Firmware control logic</br></br>
 
 
 ## Results
-잆럮햕 뮩쨩읉 햕뀪읹먅 얉야뾽 쓔 있꼐 뼍얶햬뜲릾니땨.</br>
-여가러지 옵션이 있요어! </br></br>
 <p align="center">
-<img src = "https://user-images.githubusercontent.com/45932570/116428680-1b2ac480-a880-11eb-86e3-5af8c7914589.jpg"></br>
-<i>윴튜쁪 떘끑 왠뀪읹뜳이 묫얉야뾰껥 햐끼</i>
+<img src = "hhttps://github.com/mayshin10/DSP-FPGA/blob/main/img_src/Filtered%20Images.png" width = "600px" ></br>
+Filtered Images</br></br>
+<img src = "https://github.com/mayshin10/DSP-FPGA/blob/main/img_src/Zynq%20Board%20Results.png" width = "600px" ></br>
+Zynq Board results</br></br>
+
 </p></br>
