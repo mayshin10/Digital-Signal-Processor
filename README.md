@@ -1,5 +1,5 @@
 # Digital Signal Processor: 
-##three filtering mode
+## three filtering mode
 
 ---
 
