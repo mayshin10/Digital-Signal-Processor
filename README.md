@@ -1,7 +1,7 @@
 
 # Digital Signal Processor: </br> three filtering modes
 
-This project is to design a digital signal processor with three filtering modes; edge, sharp and blur.
+This project is to design a digital signal processor with three filtering modes; edge, sharp and blur.</br>
 
 ## Environment
 Platform : RPS-z7020-TK </br>
