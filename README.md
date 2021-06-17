@@ -4,9 +4,9 @@
 This project is to design a digital signal processor with three filtering modes; edge, sharp and blur.
 
 ## Environment
-Platform : RPS-z7020-TK
-Processor : xc7z020clg484-1
-Design Tool : Vivado Design Suite HLx Edition 19.1 
+Platform : RPS-z7020-TK </br>
+Processor : xc7z020clg484-1 </br>
+Design Tool : Vivado Design Suite HLx Edition 19.1 </br> 
 
 ## Image filtering
  The digital signal processor has to meet the following requirements. First of all, it has three filtering modes to process an image; edge, sharp, and blur. Image filtering is implemented through 1-D convolution. Each filtering mode has their convolution coefficient as follow.</br>
@@ -23,7 +23,7 @@ Design Tool : Vivado Design Suite HLx Edition 19.1
                  (𝑐𝑜𝑒𝑓𝑓[3] ∗ 𝑅𝑒𝑓𝑒𝑟𝑒𝑐𝑒 𝐼𝑚𝑎𝑔𝑒[𝑖 + 1])   +
                  (𝑐𝑜𝑒𝑓𝑓[4] ∗ 𝑅𝑒𝑓𝑒𝑟𝑒𝑐𝑒 𝐼𝑚𝑎𝑔𝑒[𝑖 + 2])
 ```
- Each RGB value has to calculate separately, and it is handled as zero when it occurs overflow.
+ Each RGB value has to calculate separately, and it is handled as zero when it occurs overflow.</br>
 
 ## Hardware
 <p align="center">
